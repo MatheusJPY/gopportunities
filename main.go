@@ -14,7 +14,7 @@ func main() {
 	// Initialize Configs
 	err := config.Init()
 	if err != nil {
-		logger.Errf("config initialization error: %v", err)
+		logger.Errorf("config initialization error: %v", err)
 		return
 	}
 	// Initialize Router
